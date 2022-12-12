@@ -1,6 +1,6 @@
 ## replace hardcoded Id in the process builder
 
-add replacements snippet into sfdx-project.json
+### add replacements snippet into sfdx-project.json
 
 ```
   {
@@ -27,11 +27,12 @@ add replacements snippet into sfdx-project.json
 
 
 
+### Assign an account id value from the target org to the environment variable TARGET_ORG_ACCOUNTID 
 
+export TARGET_ORG_ACCOUNTID = {account id in the target org}
 
+### Run sfdx commands to replace the ids during the deployment
 
-### export TARGET_ORG_ACCOUNTID = {account id in the target org}
-
-### sfdx force:source:push
+sfdx force:source:push
 
 
