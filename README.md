@@ -1,8 +1,9 @@
 ## replace hardcoded Id in the process builder
 
-### add replacements snippet into sfdx-project.json
+add replacements snippet into sfdx-project.json
 
-{
+```
+  {
   "packageDirectories": [
     {
       "path": "force-app",
@@ -21,6 +22,12 @@
     }
   ]
 }
+  
+  ```
+
+
+
+
 
 
 ### export TARGET_ORG_ACCOUNTID = {account id in the target org}
