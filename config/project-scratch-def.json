@@ -1,7 +1,11 @@
 {
   "orgName": "HardcodedIdReplacement",
+  "adminEmail": "jun.liu@jmcloudservices.com",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "hasSampleData": true,
+  "features": [
+    "EnableSetPasswordInApi"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
