@@ -36,3 +36,10 @@ export TARGET_ORG_ACCOUNTID = {account id in the target org}
 sfdx force:source:push
 
 
+### Test after deployment
+
+Update the account in your target org, the owner of this account record will receive a notification. 
+
+
+
+
